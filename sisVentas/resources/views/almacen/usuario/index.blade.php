@@ -1,4 +1,4 @@
 @extends ('layouts.admin')
 @section ('contenido')
-	<input type="text" name="nombre">
+	<h3>INICIAR SESIÓN</h3>
 @stop

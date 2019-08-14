@@ -91,7 +91,7 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="almacen/articulo"><i class="fa fa-circle-o"></i> Iniciar Sesión</a></li>
+            <li><a href="{{url('almacen/usuario')}}"><i class="fa fa-circle-o"></i> Iniciar Sesión</a></li>
                 <li><a href="almacen/categoria"><i class="fa fa-circle-o"></i> Registrar Usuario</a></li>
                 <li><a href="almacen/categoria"><i class="fa fa-circle-o"></i> Permisos</a></li>
               </ul>
@@ -219,7 +219,8 @@
             <div class="col-md-12">
               <div class="box">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Sistema de Ventas</h3>
+                  <!--<h3 class="box-title">Sistema de Ventas</h3>-->
+                  <h3 class="box-title"></h3>
                   <div class="box-tools pull-right">
                     <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
                     

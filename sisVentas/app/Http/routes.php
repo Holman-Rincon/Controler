@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('almacen/sede', 'SedeController');
+Route::resource('almacen/usuario', 'UsuarioController');
